@@ -33,8 +33,7 @@ export default (signedIn = false) =>
                 ),
             },
             {
-                // initialRouteName: signedIn ? 'App' : 'Sign',
-                initialRouteName: 'App',
+                initialRouteName: signedIn ? 'App' : 'Sign',
             },
         ),
     );
